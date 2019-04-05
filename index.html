@@ -5,13 +5,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <script src="https://code.jquery.com/jquery-2.2.4.js"
-        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Project</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/flatly/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 
 <body>
-    <script src="./javascript.js"></script>
+    <div class="container">
+        <div id="jumbo" class="jumbotron">
+            <h1 class="text-center"><strong><i class="fa fa-newspaper-o"></i> New York Times Search</strong></h1>
+        </div>
+
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong><i class="fa fa-newspaper-o"></i> Search Parameters</strong></h3>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <label for="search">Search Term:</label>
+                    <input type="text" class="form-control" id="search-term">
+                </div>
+                <div class="form-group">
+                    <label for="pwd">Number of Records to Retrieve:</label>
+                    <select class="form-control inp2" id="num-records-select">
+                        <option value="1">1</option>
+                        <option value="5" selected="">5</option>
+                        <option value="10">10</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="search">Start Year(Optional):</label>
+                    <input type="text" class="form-control" id="search-term">
+                </div>
+                <div class="form-group">
+                    <label for="search">End Year (Optional):</label>
+                    <input type="text" class="form-control" id="search-term">
+                </div>
+                <button class="btn btn-default" id="search"><i class="fa fa-search"> Search</i>
+                    <button class="btn btn-default" id="trash"><i class="fa fa-trash"> Clear Results</i>
+            </div>
+        </div>
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h3 class="panel-title"><strong><i class="fa fa-table"></i>  Top Articles</strong></h3>
+                </div>
+                <div class="panel-body">
+                </div>
+              </div>
+>>>>>>> 8b28ebb06728f9e6326ddb27ac4cce3c6b798ce3
 </body>
 
 </html>
